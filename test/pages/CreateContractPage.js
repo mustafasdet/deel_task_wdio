@@ -1,7 +1,5 @@
 class CreateContractPage {
-// get contractNameField() {
-//     return $('input[class="deel-ui__input-component__input deel-ui__input-component__input_placeholder"]');
-// }
+
 get contractName() {
     return $('label=Contract name').nextElement();
 }
@@ -20,13 +18,6 @@ async selectContractorTaxResidence(taxResidence){
     return await $('div='+taxResidence).click();   
 }
 
-// async selectJobTitle(jobTitle){
-//     const dropdown = await $('label=Job title').nextElement();
-//     const dropdownJobs = await dropdown.$$('div')[2];
-//     dropdownJobs.click();
-//     return await $('div='+jobTitle).click();
-// }
-
 async selectState(state){
     const dropdown = await $('label=Choose a state').nextElement();
     const dropdownStates = await dropdown.$$('div')[2];
@@ -38,10 +29,6 @@ async selectState(state){
 async sendJobTitle(jobTitle){
     return await $('label=Job title').nextElement().addValue(jobTitle);
 }
-
-// async sendSeniorLevel(seniorLevel){
-//     return await $('label=Seniority level').nextElement().addValue(seniorLevel);
-// }
 
 async selectSeniorLevel(seniorLevel){
     const dropdown = await $('label=Seniority level').nextElement();
@@ -103,7 +90,6 @@ get currency(){
 }
 
 async dropdownSelect(element, option){
-    // const currencyDropdown = await $('label=Currency').nextElement();
     const dropdownOptions = element.$$('div')[2];
     dropdownOptions.click();
     return await $('div='+option).click();
@@ -146,8 +132,6 @@ get createContractButton() {
 get signatures_h4(){
     return $('h4=Signatures');
 }
-
-
 
 }
 module.exports = new CreateContractPage();
