@@ -1,0 +1,91 @@
+[ {
+  "uid" : "2c863bc9b09c8b96",
+  "name" : "creates the contract",
+  "time" : {
+    "start" : 1646235374669,
+    "stop" : 1646235377262,
+    "duration" : 2593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "111bd1d60e9427b2",
+  "name" : "verifies the page and fills in Define dates form",
+  "time" : {
+    "start" : 1646235374379,
+    "stop" : 1646235374461,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80cd4f58af4e4450",
+  "name" : "navigates to fixed rate and verifies the contract type",
+  "time" : {
+    "start" : 1646235369738,
+    "stop" : 1646235370410,
+    "duration" : 672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bc04e72442269b1",
+  "name" : "should login with valid credentials and verify the login",
+  "time" : {
+    "start" : 1646235362303,
+    "stop" : 1646235369633,
+    "duration" : 7330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d8b8a838d34833b",
+  "name" : "sends valid data to fill in general info",
+  "time" : {
+    "start" : 1646235370410,
+    "stop" : 1646235372958,
+    "duration" : 2548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2c36c8be3634631",
+  "name" : "verify the page and fills in payment details",
+  "time" : {
+    "start" : 1646235372959,
+    "stop" : 1646235374379,
+    "duration" : 1420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "836649f9a7bd7287",
+  "name" : "navigates to create contract",
+  "time" : {
+    "start" : 1646235369633,
+    "stop" : 1646235369738,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "255d25c30913bce",
+  "name" : "verify logged in",
+  "time" : {
+    "start" : 1646234202269,
+    "stop" : 1646234202269,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec93cfa4ba05ab2e",
+  "name" : "verifies the page and fills in Benefits and extras",
+  "time" : {
+    "start" : 1646235374462,
+    "stop" : 1646235374669,
+    "duration" : 207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

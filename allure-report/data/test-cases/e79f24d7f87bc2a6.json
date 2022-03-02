@@ -1,0 +1,160 @@
+{
+  "uid" : "e79f24d7f87bc2a6",
+  "name" : "navigates to create contract",
+  "fullName" : "User can create a fixed rate contract.navigates to create contract",
+  "historyId" : "21d3486c8e8ab1a5396b6ad822d32a71",
+  "time" : {
+    "start" : 1646234766530,
+    "stop" : 1646234766797,
+    "duration" : 267
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1646234766530,
+        "stop" : 1646234766565,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84d7aeb2d3b02d6c",
+        "name" : "Request",
+        "source" : "84d7aeb2d3b02d6c.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "21057c3ea9dfb778",
+        "name" : "Response",
+        "source" : "21057c3ea9dfb778.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/32487f97-99ba-40c2-bdd6-38994b1cddb6/click",
+      "time" : {
+        "start" : 1646234766567,
+        "stop" : 1646234766643,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1646234766644,
+        "stop" : 1646234766686,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "985d1a5199956171",
+        "name" : "Request",
+        "source" : "985d1a5199956171.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "8fdc304f4ab04841",
+        "name" : "Response",
+        "source" : "8fdc304f4ab04841.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/32487f97-99ba-40c2-bdd6-38994b1cddb6/text",
+      "time" : {
+        "start" : 1646234766689,
+        "stop" : 1646234766797,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db3089c5bfe08a69",
+        "name" : "Response",
+        "source" : "db3089c5bfe08a69.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User can create a fixed rate contract"
+  }, {
+    "name" : "testClass",
+    "value" : "User can create a fixed rate contract"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigates to create contract"
+  }, {
+    "name" : "package",
+    "value" : "User can create a fixed rate contract"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.109"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e79f24d7f87bc2a6.json",
+  "parameterValues" : [ "chrome-98.0.4758.109" ]
+}

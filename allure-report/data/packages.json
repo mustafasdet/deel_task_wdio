@@ -1,0 +1,162 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "User can create a fixed rate contract",
+    "children" : [ {
+      "name" : "verify logged in",
+      "uid" : "255d25c30913bce",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646234202269,
+        "stop" : 1646234202269,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    }, {
+      "name" : "should login with valid credentials and verify the login",
+      "uid" : "9bc04e72442269b1",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646235362303,
+        "stop" : 1646235369633,
+        "duration" : 7330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    }, {
+      "name" : "navigates to create contract",
+      "uid" : "836649f9a7bd7287",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646235369633,
+        "stop" : 1646235369738,
+        "duration" : 105
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    }, {
+      "name" : "navigates to fixed rate and verifies the contract type",
+      "uid" : "80cd4f58af4e4450",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646235369738,
+        "stop" : 1646235370410,
+        "duration" : 672
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    }, {
+      "name" : "sends valid data to fill in general info",
+      "uid" : "6d8b8a838d34833b",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646235370410,
+        "stop" : 1646235372958,
+        "duration" : 2548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    }, {
+      "name" : "verify the page and fills in payment details",
+      "uid" : "a2c36c8be3634631",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646235372959,
+        "stop" : 1646235374379,
+        "duration" : 1420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    }, {
+      "name" : "verifies the page and fills in Define dates form",
+      "uid" : "111bd1d60e9427b2",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646235374379,
+        "stop" : 1646235374461,
+        "duration" : 82
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    }, {
+      "name" : "verifies the page and fills in Benefits and extras",
+      "uid" : "ec93cfa4ba05ab2e",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646235374462,
+        "stop" : 1646235374669,
+        "duration" : 207
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    }, {
+      "name" : "creates the contract",
+      "uid" : "2c863bc9b09c8b96",
+      "parentUid" : "8519e3318425f338913a2c04ceb4eebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646235374669,
+        "stop" : 1646235377262,
+        "duration" : 2593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    } ],
+    "uid" : "8519e3318425f338913a2c04ceb4eebd"
+  } ]
+}
